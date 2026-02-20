@@ -1,0 +1,1182 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16/"
+     xml:base="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-14="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#"
+     xmlns:untitled-ontology-16="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16">
+        <owl:imports rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#tem_atributo_Dureza_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#tem_atributo_Dureza_nível"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#nível_de_dureza -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#nível_de_dureza">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Dureza"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Gosto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Gosto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_adesividade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_adesividade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Adesividade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_densidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_densidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Densidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_efervescência -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_efervescência">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Efervescência"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_elasticidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_elasticidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Elasticidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_fraturabilidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_fraturabilidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_gomosidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_gomosidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Gomosidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_granulosidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_granulosidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_mastigabilidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_mastigabilidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Mastigabilidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_umidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_umidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Umidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_viscosidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#nível_de_viscosidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Viscosidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#orientação_das_partículas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#orientação_das_partículas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Conformação"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#percepção_de_gordura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#percepção_de_gordura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Oleosidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#acuçar_de_confeiteiro -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#acuçar_de_confeiteiro">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#liso"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#alpo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#alpo">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fibroso"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#amido_de_milho -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#amido_de_milho">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#liso"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#atum_cozido -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#atum_cozido">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#escamoso"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeite_de_soja -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeite_de_soja">
+        <untitled-ontology-14:tem_atributo_Oleosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#oleoso"/>
+        <untitled-ontology-16:Gosto>amargo</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeitona -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeitona">
+        <untitled-ontology-16:tem_atributo_Dureza_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#firme"/>
+        <untitled-ontology-16:Gosto>ácido</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar-demerara -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar-demerara">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#granulado_rígido"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar_granulado -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar_granulado">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#cristalino"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bacon -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bacon">
+        <untitled-ontology-14:tem_atributo_Oleosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#gorduroso"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bala_vitrificada -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bala_vitrificada">
+        <untitled-ontology-16:tem_atributo_Dureza_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#duro"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#banha_de_porco -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#banha_de_porco">
+        <untitled-ontology-14:tem_atributo_Oleosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#seboso"/>
+        <untitled-ontology-16:Gosto>amargo</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_branca -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_branca">
+        <untitled-ontology-14:tem_atributo_Gomosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#farinhento"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_frita -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_frita">
+        <untitled-ontology-14:tem_atributo_Oleosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#gorduroso"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_palha -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_palha">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#alta_crocancia"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_amanteigado -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_amanteigado">
+        <untitled-ontology-14:tem_atributo_Gomosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esfarelento"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_cream_cracker -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_cream_cracker">
+        <untitled-ontology-14:tem_atributo_Umidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#seco"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_polvilho -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_polvilho">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aerado"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bolo_de_fubá -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bolo_de_fubá">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esmigalhado"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#calda_de_caramelo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#calda_de_caramelo">
+        <untitled-ontology-14:tem_atributo_Adesividade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pegajoso"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#caramelo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#caramelo">
+        <untitled-ontology-14:tem_atributo_Adesividade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#muito_pegajoso"/>
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#coesivo"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#cenoura_crua -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#cenoura_crua">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#crocante"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#clara_em_neve -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#clara_em_neve">
+        <untitled-ontology-14:tem_atributo_Densidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#leve"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#creme_de_leite -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#creme_de_leite">
+        <untitled-ontology-14:tem_atributo_Viscosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#untuoso"/>
+        <untitled-ontology-16:Gosto>amargo</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#croissant -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#croissant">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#escamoso"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#doce_de_batata_doce -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#doce_de_batata_doce">
+        <untitled-ontology-14:tem_atributo_Densidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pesado"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#duro -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#duro">
+        <untitled-ontology-14:nível_de_dureza>alto</untitled-ontology-14:nível_de_dureza>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ervilha_fresca -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ervilha_fresca">
+        <untitled-ontology-14:tem_atributo_Mastigabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#tenro"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#farinha_de_tapioca -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#farinha_de_tapioca">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#perolado"/>
+        <untitled-ontology-16:Gosto>amargo</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#firme -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#firme">
+        <untitled-ontology-14:nível_de_dureza>médio</untitled-ontology-14:nível_de_dureza>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_arroz -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_arroz">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aerado"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_milho -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_milho">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#alta_crocancia"/>
+        <untitled-ontology-16:Gosto>amargo</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#goma_de_mascar -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#goma_de_mascar">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#coesivo"/>
+        <untitled-ontology-14:tem_atributo_Mastigabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#borrachento"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#gomas -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#gomas">
+        <untitled-ontology-14:tem_atributo_Elasticidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#elástico"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#leite_condensado -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#leite_condensado">
+        <untitled-ontology-14:tem_atributo_Viscosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#viscoso"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#margarina -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#margarina">
+        <untitled-ontology-14:tem_atributo_Elasticidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#plástico"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#marshmallow -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#marshmallow">
+        <untitled-ontology-14:tem_atributo_Adesividade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pouco_pegajoso"/>
+        <untitled-ontology-14:tem_atributo_Elasticidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#maleável"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_de_farinha_de_trigo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_de_farinha_de_trigo">
+        <untitled-ontology-14:tem_atributo_Gomosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pastoso"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_folhada -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_folhada">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#escamoso"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#maçã_descascada -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#maçã_descascada">
+        <untitled-ontology-14:tem_atributo_Umidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#úmido"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mel -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mel">
+        <untitled-ontology-14:tem_atributo_Viscosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#viscoso"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mexilhão -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mexilhão">
+        <untitled-ontology-14:tem_atributo_Elasticidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#elástico"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_aveia_sobrecozido -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_aveia_sobrecozido">
+        <untitled-ontology-14:tem_atributo_Gomosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pastoso"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_flocos_de_aveia -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_flocos_de_aveia">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#grosso"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ostras -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ostras">
+        <untitled-ontology-14:tem_atributo_Umidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#molhado"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pasta_de_amendoim -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pasta_de_amendoim">
+        <untitled-ontology-14:tem_atributo_Adesividade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aderente"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#peras -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#peras">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#arenoso"/>
+        <untitled-ontology-16:Gosto>acido</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#polpa_de_laranja -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#polpa_de_laranja">
+        <untitled-ontology-14:tem_atributo_Conformação_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#celular"/>
+        <untitled-ontology-16:Gosto>ácido</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pudim_de_pão -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pudim_de_pão">
+        <untitled-ontology-14:tem_atributo_Densidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pesado"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#purê_de_castanha -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#purê_de_castanha">
+        <untitled-ontology-14:tem_atributo_Gomosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pastoso"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pé-de-moleque -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pé-de-moleque">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#quebradiço"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cottage -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cottage">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#grumoso"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cremoso -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cremoso">
+        <untitled-ontology-16:tem_atributo_Dureza_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#macio"/>
+        <untitled-ontology-16:Gosto>Salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#semolina -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#semolina">
+        <untitled-ontology-14:tem_atributo_Granulosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#granuloso"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#sorvete_cremoso -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#sorvete_cremoso">
+        <untitled-ontology-14:tem_atributo_Mastigabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fundente"/>
+        <untitled-ontology-16:Gosto>doce</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#água_potável -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#água_potável">
+        <untitled-ontology-14:tem_atributo_Viscosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fluído"/>
+        <untitled-ontology-16:Gosto>alcalino</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#óleo_de_oliva -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#óleo_de_oliva">
+        <untitled-ontology-14:tem_atributo_Viscosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#ralo"/>
+        <untitled-ontology-16:Gosto>amargo</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#arroz_curto(para_sushi) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#arroz_curto(para_sushi)">
+        <untitled-ontology-14:tem_atributo_Adesividade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pegajoso"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#carne_de_boi(velho) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#carne_de_boi(velho)">
+        <untitled-ontology-14:tem_atributo_Mastigabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#rijo"/>
+        <untitled-ontology-16:Gosto>metálico</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#feijão_cozido(velho) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#feijão_cozido(velho)">
+        <untitled-ontology-14:tem_atributo_Gomosidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#farinhento"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ovo(gema) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ovo(gema)">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pulverulento"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pão_francês(casca) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pão_francês(casca)">
+        <untitled-ontology-14:tem_atributo_Fraturabilidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esfarelento-casca"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Lula_cozida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Lula_cozida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Processado"/>
+        <untitled-ontology-14:tem_atributo_Elasticidade_nível rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#elástico"/>
+        <untitled-ontology-16:Gosto>salgado</untitled-ontology-16:Gosto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aderente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aderente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Adesividade"/>
+        <untitled-ontology-16:nível_de_adesividade>moderado</untitled-ontology-16:nível_de_adesividade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aerado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#aerado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Conformação"/>
+        <untitled-ontology-16:orientação_das_partículas>células externas rígidas</untitled-ontology-16:orientação_das_partículas>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#alta_crocancia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#alta_crocancia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>elevado</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#arenoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#arenoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>baixo</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#borbulhante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#borbulhante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Efervescência"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#borrachento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#borrachento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Mastigabilidade"/>
+        <untitled-ontology-16:nível_de_mastigabilidade>médio</untitled-ontology-16:nível_de_mastigabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#celular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#celular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Conformação"/>
+        <untitled-ontology-16:orientação_das_partículas>estéricas</untitled-ontology-16:orientação_das_partículas>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#coesivo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#coesivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>muito baixo</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#cristalino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#cristalino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Conformação"/>
+        <untitled-ontology-16:orientação_das_partículas>angulares, simétricas e tridimensionais</untitled-ontology-16:orientação_das_partículas>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#crocante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#crocante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>médio</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#elástico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#elástico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Elasticidade"/>
+        <untitled-ontology-16:nível_de_elasticidade>alto</untitled-ontology-16:nível_de_elasticidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#escamoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#escamoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Conformação"/>
+        <untitled-ontology-16:orientação_das_partículas>camadas soltas</untitled-ontology-16:orientação_das_partículas>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esfarelento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esfarelento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Gomosidade"/>
+        <untitled-ontology-16:nível_de_gomosidade>baixo</untitled-ontology-16:nível_de_gomosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esfarelento-casca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esfarelento-casca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>elevado</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esmigalhado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#esmigalhado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>baixo</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#espumante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#espumante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Efervescência"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#farinhento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#farinhento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Gomosidade"/>
+        <untitled-ontology-16:nível_de_gomosidade>médio</untitled-ontology-16:nível_de_gomosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fibroso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fibroso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Conformação"/>
+        <untitled-ontology-16:orientação_das_partículas>longas e filamentos orientados</untitled-ontology-16:orientação_das_partículas>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fluído -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fluído">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Viscosidade"/>
+        <untitled-ontology-16:nível_de_viscosidade>baixo</untitled-ontology-16:nível_de_viscosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#formigamento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#formigamento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Efervescência"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fundente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#fundente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Mastigabilidade"/>
+        <untitled-ontology-16:nível_de_mastigabilidade>muito baixo</untitled-ontology-16:nível_de_mastigabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#gomoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#gomoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Gomosidade"/>
+        <untitled-ontology-16:nível_de_gomosidade>alto</untitled-ontology-16:nível_de_gomosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#gorduroso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#gorduroso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Oleosidade"/>
+        <untitled-ontology-16:percepção_de_gordura>exsuda</untitled-ontology-16:percepção_de_gordura>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#granulado_rígido -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#granulado_rígido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>moderado-alto</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#granuloso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#granuloso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>moderado</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#grosso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#grosso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>alto</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#grumoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#grumoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>alto</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#leve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#leve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Densidade"/>
+        <untitled-ontology-16:nível_de_densidade>baixo</untitled-ontology-16:nível_de_densidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#liso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#liso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>ausência</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#maleável -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#maleável">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Elasticidade"/>
+        <untitled-ontology-16:nível_de_elasticidade>moderado</untitled-ontology-16:nível_de_elasticidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#molhado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#molhado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Umidade"/>
+        <untitled-ontology-16:nível_de_umidade>alto</untitled-ontology-16:nível_de_umidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#muito_pegajoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#muito_pegajoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Adesividade"/>
+        <untitled-ontology-16:nível_de_adesividade>muito alto</untitled-ontology-16:nível_de_adesividade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#oleoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#oleoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Oleosidade"/>
+        <untitled-ontology-16:percepção_de_gordura>embebida e fluída</untitled-ontology-16:percepção_de_gordura>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pastoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pastoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Gomosidade"/>
+        <untitled-ontology-16:nível_de_gomosidade>médio</untitled-ontology-16:nível_de_gomosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pegajoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pegajoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Adesividade"/>
+        <untitled-ontology-16:nível_de_adesividade>alto</untitled-ontology-16:nível_de_adesividade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#perolado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#perolado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Granulosidade"/>
+        <untitled-ontology-16:nível_de_granulosidade>moderado-alto</untitled-ontology-16:nível_de_granulosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pesado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pesado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Densidade"/>
+        <untitled-ontology-16:nível_de_densidade>alto</untitled-ontology-16:nível_de_densidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#plástico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#plástico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Elasticidade"/>
+        <untitled-ontology-16:nível_de_elasticidade>ausência</untitled-ontology-16:nível_de_elasticidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pouco_gás -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pouco_gás">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Efervescência"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pouco_pegajoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pouco_pegajoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Adesividade"/>
+        <untitled-ontology-16:nível_de_adesividade>baixo</untitled-ontology-16:nível_de_adesividade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pulverulento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#pulverulento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>muito elevado</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#quebradiço -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#quebradiço">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Fraturabilidade"/>
+        <untitled-ontology-16:nível_de_fraturabilidade>elevado</untitled-ontology-16:nível_de_fraturabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#ralo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#ralo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Viscosidade"/>
+        <untitled-ontology-16:nível_de_viscosidade>moderado</untitled-ontology-16:nível_de_viscosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#rijo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#rijo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Mastigabilidade"/>
+        <untitled-ontology-16:nível_de_mastigabilidade>elevado</untitled-ontology-16:nível_de_mastigabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#seboso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#seboso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Oleosidade"/>
+        <untitled-ontology-16:percepção_de_gordura>matéria graxa</untitled-ontology-16:percepção_de_gordura>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#seco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#seco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Umidade"/>
+        <untitled-ontology-16:nível_de_umidade>ausência</untitled-ontology-16:nível_de_umidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#sem_gás -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#sem_gás">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Efervescência"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#tenro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#tenro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Mastigabilidade"/>
+        <untitled-ontology-16:nível_de_mastigabilidade>baixo</untitled-ontology-16:nível_de_mastigabilidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#untuoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#untuoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Viscosidade"/>
+        <untitled-ontology-16:nível_de_viscosidade>moderado</untitled-ontology-16:nível_de_viscosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#viscoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#viscoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Viscosidade"/>
+        <untitled-ontology-16:nível_de_viscosidade>alto</untitled-ontology-16:nível_de_viscosidade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#úmido -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#úmido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Umidade"/>
+        <untitled-ontology-16:nível_de_umidade>moderado</untitled-ontology-16:nível_de_umidade>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
