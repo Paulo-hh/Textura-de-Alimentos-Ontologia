@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22/"
+     xml:base="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-14="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22">
+        <owl:imports rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Adesividade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Adesividade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Conformação_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Conformação_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Densidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Densidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Efervescência_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Efervescência_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Elasticidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Elasticidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Fraturabilidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Fraturabilidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Gomosidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Gomosidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Granulosidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Granulosidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Mastigabilidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Mastigabilidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Oleosidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Oleosidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Umidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Umidade_nível"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Viscosidade_nível -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#tem_atributo_Viscosidade_nível"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#nível_de_dureza -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22#nível_de_dureza"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#acuçar_de_confeiteiro -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#acuçar_de_confeiteiro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#alpo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#alpo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#amido_de_milho -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#amido_de_milho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#atum_cozido -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#atum_cozido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeite_de_soja -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeite_de_soja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeitona -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeitona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar-demerara -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar-demerara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar_granulado -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar_granulado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bacon -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bacon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bala_vitrificada -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bala_vitrificada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#banha_de_porco -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#banha_de_porco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_branca -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_branca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_frita -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_frita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_palha -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_palha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_amanteigado -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_amanteigado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_cream_cracker -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_cream_cracker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_polvilho -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_polvilho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bolo_de_fubá -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bolo_de_fubá">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#calda_de_caramelo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#calda_de_caramelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#caramelo -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#caramelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#cenoura_crua -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#cenoura_crua">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#clara_em_neve -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#clara_em_neve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#creme_de_leite -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#creme_de_leite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#croissant -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#croissant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#doce_de_batata_doce -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#doce_de_batata_doce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ervilha_fresca -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ervilha_fresca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#farinha_de_tapioca -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#farinha_de_tapioca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_arroz -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_arroz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_milho -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_milho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#goma_de_mascar -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#goma_de_mascar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#gomas -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#gomas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#leite_condensado -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#leite_condensado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#margarina -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#margarina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#marshmallow -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#marshmallow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_folhada -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_folhada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#maçã_descascada -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#maçã_descascada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mel -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mexilhão -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mexilhão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_aveia_sobrecozido -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_aveia_sobrecozido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_flocos_de_aveia -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_flocos_de_aveia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ostras -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ostras">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pasta_de_amendoim -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pasta_de_amendoim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#peras -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#peras">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#polpa_de_laranja -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#polpa_de_laranja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pudim_de_pão -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pudim_de_pão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pé-de-moleque -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pé-de-moleque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cottage -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cottage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cremoso -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cremoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#semolina -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#semolina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#sorvete_cremoso -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#sorvete_cremoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#água_potável -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#água_potável">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#óleo_de_oliva -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#óleo_de_oliva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#arroz_curto(para_sushi) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#arroz_curto(para_sushi)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#carne_de_boi(velho) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#carne_de_boi(velho)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#feijão_cozido(velho) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#feijão_cozido(velho)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ovo(gema) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ovo(gema)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pão_francês(casca) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pão_francês(casca)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Lula_cozida -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Lula_cozida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#espumante -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#espumante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22">
+    <Prefix name="" IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-22/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16</Import>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Adesividade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Conformação_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Densidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Efervescência_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Elasticidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Fraturabilidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Gomosidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Granulosidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Mastigabilidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Oleosidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Umidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_atributo_Viscosidade_nível"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nível_de_dureza"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#acuçar_de_confeiteiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#alpo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#amido_de_milho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#atum_cozido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeite_de_soja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#azeitona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar-demerara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#açucar_granulado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bacon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bala_vitrificada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#banha_de_porco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_branca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_frita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#batata_palha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_amanteigado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_cream_cracker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#biscoito_polvilho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#bolo_de_fubá"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#calda_de_caramelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#caramelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#cenoura_crua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#clara_em_neve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#creme_de_leite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#croissant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#doce_de_batata_doce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ervilha_fresca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#farinha_de_tapioca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_arroz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#flocos_de_milho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#goma_de_mascar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#gomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#leite_condensado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#margarina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#marshmallow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#massa_folhada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#maçã_descascada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mexilhão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_aveia_sobrecozido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#mingau_de_flocos_de_aveia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ostras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pasta_de_amendoim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#peras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#polpa_de_laranja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pudim_de_pão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pé-de-moleque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cottage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#queijo_cremoso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#semolina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#sorvete_cremoso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#água_potável"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#óleo_de_oliva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#arroz_curto(para_sushi)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#carne_de_boi(velho)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#feijão_cozido(velho)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#ovo(gema)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#pão_francês(casca)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Lula_cozida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#espumante"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
