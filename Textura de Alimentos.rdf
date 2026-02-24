@@ -377,7 +377,9 @@
 
     <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento">
+        <rdfs:comment>Os alimentos estão classificados  pelo nível de processamento (in natura, processados e ultraprocessados).</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -391,7 +393,9 @@
 
     <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo">
+        <rdfs:comment>atributos referentes a textura dos alimentos, envolve conjunto de propriedade mêcanicas, geométricas, de superfície e de corpo de um produto.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -423,6 +427,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Dureza">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Mêcanico"/>
+        <rdfs:comment>Atributo mêcanico de textura ligado à força necessária para obter uma deformação, penetração ou ruptura de um produto.</rdfs:comment>
     </owl:Class>
     
 
@@ -455,6 +460,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Geométrico">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo"/>
+        <rdfs:comment>Relacionado ao tamanho, forma e orientação das partículas de um produto.</rdfs:comment>
     </owl:Class>
     
 
@@ -479,6 +485,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#In_Natura">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento"/>
+        <rdfs:comment>Obtidos direto da natureza ou com alterações mínimas (limpeza, secagem, moagem, pasteurização). Exemplos: Frutas, legumes, verduras, ovos, carnes, grãos, leite, castanhas.</rdfs:comment>
     </owl:Class>
     
 
@@ -487,6 +494,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ingrediente_Processado">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento"/>
+        <rdfs:comment>Substâncias extraídas de alimentos in natura, usadas para cozinhar. Exemplos: Óleos, gorduras, sal, açúcar.</rdfs:comment>
     </owl:Class>
     
 
@@ -503,6 +511,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Mêcanico">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo"/>
+        <rdfs:comment>Atributos relacionados à reação do produto à força.</rdfs:comment>
     </owl:Class>
     
 
@@ -519,6 +528,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Processado">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento"/>
+        <rdfs:comment>Produtos fabricados pela indústria com adição de sal, açúcar ou outro ingrediente culinário a alimentos in natura. Exemplos: Conservas, queijos, pães artesanais, frutas em calda.</rdfs:comment>
     </owl:Class>
     
 
@@ -527,6 +537,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Superficial">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo"/>
+        <rdfs:comment>Relacionados às sensações produzidas na boca pela umidade e/ou gordura saturada na superfície de um produto ou proximo a ela.</rdfs:comment>
     </owl:Class>
     
 
@@ -535,6 +546,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Ultraprocessado">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-14#Alimento"/>
+        <rdfs:comment>Formulações industriais com pouco ou nenhum alimento inteiro e muitos aditivos (corantes, aromatizantes). Exemplos: Refrigerantes, salgadinhos de pacote, macarrão instantâneo, biscoitos recheados.</rdfs:comment>
     </owl:Class>
     
 
@@ -543,6 +555,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Umidade">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Superficial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Umidade_de_Corpo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Umidade_de_Corpo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#de_Corpo"/>
     </owl:Class>
     
 
@@ -559,6 +579,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#de_Corpo">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paulo/ontologies/2026/1/untitled-ontology-16#Atributo"/>
+        <rdfs:comment>Relacionados às sensações produzidas na boca pela umidade e/ou gordura contida no produto e na forma como esses constituintes são liberados.</rdfs:comment>
     </owl:Class>
     
 
